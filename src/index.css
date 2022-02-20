@@ -11,3 +11,122 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.login-page{
+  padding: 10vw;
+  padding-top: 5vh;
+  padding-right: 40vw;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 2vw;
+  background:linear-gradient(to right,rgb(145, 248, 214),white);
+  color: rgb(63, 31, 31);
+  align-items: center;
+}
+
+.dasboard-div{
+  display: flex;
+  padding: 3%;
+  align-items: center;
+  padding-left: 15%;
+  /* justify-content: space-around; */
+  font-style: italic;
+
+}
+
+.dasboard-div .left-div{
+  background-color: rgb(181, 247, 225);
+  width: 35vw;
+  height: 70vh;
+  color: rgb(63, 12, 12);
+padding: 2vw;
+/* font-weight: bold; */
+
+}
+
+.dasboard-div .right-div{
+  background-color: rgb(219, 250, 240);
+  width: 35vw;
+  height: 70vh;
+  color: rgb(63, 12, 12);
+text-align: center;
+padding-top: 20vh;
+}
+
+/* button{
+  font-size: 2vw;
+} */
+
+a{
+  text-decoration: none;
+  color:rgb(170, 7, 7);
+}
+
+.signup-page{
+  background-color:rgb(183, 250, 228);
+  width: 50vw;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 1%;
+  padding:4vw ;
+}
+
+.page-div{
+  padding-left: 5vw;
+  padding-top: 2vw;
+  padding-right: 5vw;
+}
+
+.page-div object{
+  width: 50vw;
+  height: 60vh;
+}
+@media only screen and (max-width: 1000px) {
+  
+  header{
+    padding: 5vw;
+    align-items: center;
+    height:20vh;
+  }
+
+  header button{
+    width:30vw
+  }
+  
+  .dasboard-div{
+    display: flex;
+    padding: 5%;
+    align-items: center;
+    font-style: italic;
+  }
+  
+  .dasboard-div .left-div{
+    width: 80vw;
+    height: 65vh;
+  padding: 5vw;
+  }
+  
+  .dasboard-div .right-div{
+display: none;
+  }
+  .signup-page{
+    width: 90vw;
+    margin-left: 5%;
+    margin-top: 1%;
+    padding:4vw;
+  }
+  h2{
+    font-size: 6vw;
+  } 
+  .page-div{
+    padding-top: 3vh;
+  }
+  .page-div object{
+    padding-top: 5vh;
+    width: 90vw;
+    height: 50vh;
+  }
+}
