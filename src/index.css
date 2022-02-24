@@ -130,3 +130,21 @@ display: none;
     height: 50vh;
   }
 }
+
+.url-form-div{
+  padding: 2vw;
+  background-color: rgb(183, 250, 228) ;
+  width:90vw ;
+  height:50vh ;
+text-align: center;
+}
+
+div.MuiDataGrid-row.Mui-selected > div:nth-child(2)
+ {
+   overflow: auto;
+ }
+
+ .table-div table{
+    width:20vw;
+    height: 20px;
+ }
